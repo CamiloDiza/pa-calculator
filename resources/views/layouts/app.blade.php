@@ -8,6 +8,7 @@
     <title>{{ config('app.name') }}</title>
 
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+    @livewireStyles
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -18,6 +19,8 @@
     </main>
 
     @include('partials.footer')
+
+    @livewireScripts
 </body>
 
 </html>
