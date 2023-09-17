@@ -1,4 +1,4 @@
-<x-tab-pane active="true" target="feeding">
+<x-tab-pane active="false" target="feeding">
     <div class="row py-3">
         <div class="col-4">
             <div class="mb-3">
@@ -30,25 +30,25 @@
         </div>
         <div class="col-8">
             <div class="row container gy-3 align-items-start" style="margin-left: 0%; padding-right: 0%">
-                <x-card-list title="Kitchen">
-                    <x-list-item listItem="Cookers" badge="{{ $cookers }}" />
-                    <x-list-item listItem="Cooks" badge="{{ $cooks }}" />
-                    <x-list-item listItem="Fridges" badge="{{ $fridges }}" />
-                    <x-list-item listItem="Sinks" badge="{{ $sinks }}" />
-                    <x-list-item listItem="Bins" badge="{{ $bins }}" />
+                <x-card-list title="{{ __('Kitchen') }}">
+                    <x-list-item listItem="{{ __('Cookers') }}" badge="{{ $cookers }}" />
+                    <x-list-item listItem="{{ __('Cooks') }}" badge="{{ $cooks }}" />
+                    <x-list-item listItem="{{ __('Fridges') }}" badge="{{ $fridges }}" />
+                    <x-list-item listItem="{{ __('Sinks') }}" badge="{{ $sinks }}" />
+                    <x-list-item listItem="{{ __('Bins') }}" badge="{{ $bins }}" />
                 </x-card-list>
 
-                <x-card-list title="Canteen">
-                    <x-list-item listItem="Tables" badge="{{ $tables }}" />
-                    <x-list-item listItem="Benches" badge="{{ $benches }}" />
-                    <x-list-item listItem="Serving table" badge="{{ $servingTables }}" />
-                    <x-list-item listItem="Bins" badge="{{ $bins }}" />
+                <x-card-list title="{{ __('Canteen') }}">
+                    <x-list-item listItem="{{ __('Tables') }}" badge="{{ $tables }}" />
+                    <x-list-item listItem="{{ __('Benches') }}" badge="{{ $benches }}" />
+                    <x-list-item listItem="{{ __('Serving table') }}" badge="{{ $servingTables }}" />
+                    <x-list-item listItem="{{ __('Bins') }}" badge="{{ $bins }}" />
                 </x-card-list>
 
-                <x-card-list title="Food Costs">
-                    <x-list-item listItem="Quantity Cost" badge="${{ $quantityCost }}" />
-                    <x-list-item listItem="Variety Cost" badge="${{ $varietyCost }}" />
-                    <x-list-item listItem="Daily Cost" badge="${{ $dailyCost }}" />
+                <x-card-list title="{{ __('Food Costs') }}">
+                    <x-list-item listItem="{{ __('Quantity Cost') }}" badge="${{ $quantityCost }}" />
+                    <x-list-item listItem="{{ __('Variety Cost') }}" badge="${{ $varietyCost }}" />
+                    <x-list-item listItem="{{ __('Daily Cost') }}" badge="${{ $dailyCost }}" />
                 </x-card-list>
             </div>
         </div>
