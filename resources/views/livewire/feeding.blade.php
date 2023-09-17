@@ -1,4 +1,4 @@
-<x-tab-pane active="false" target="feeding">
+<x-tab-pane active="true" target="feeding">
     <div class="row py-3">
         <div class="col-4">
             <div class="mb-3">

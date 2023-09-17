@@ -1,4 +1,4 @@
-<x-tab-pane active="true" target="cleanliness">
+<x-tab-pane active="false" target="cleanliness">
     <div class="row py-3">
         <div class="col-6">
             <div class="row align-items-start">
