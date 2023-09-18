@@ -26,7 +26,7 @@
                         badge="{{ $cleaningCupboardWorkingPrisoners }}" />
                 </x-card-list>
 
-                <x-card-list title="{{ __('Cleaning (Per room)') }}">
+                <x-card-list title="{{ __('Cleaning Cupboard (Per room)') }}">
                     <x-list-item listItem="{{ __('Working Prisoners') }}" badge="{{ $cleaningCupboardWorkingPrisonersPerRoom }}" />
                 </x-card-list>
             </div>
