@@ -1,6 +1,6 @@
 <x-tab-pane active="false" target="workshop">
     <div class="row py-3">
-        <div class="col-4">
+        <div class="col-md-4">
             <div class="mb-3">
                 <label class="form-label">{{ __('Enter Workers') }}</label>
                 <input wire:model.live="workers" class="form-control form-control-lg" type="number">
@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        <div class="col-8">
+        <div class="col-md-8">
             <div class="row align-items-start justify-content-center">
                 <x-card-list title="{{ __('Workshop') }}">
                     <x-list-item listItem="{{ __('Work Saw') }}" badge="{{ $workSaw }}" />

@@ -11,6 +11,12 @@
     src: url('/public/fonts/rimouski\ sb.otf');
 }
 
+@media (min-width: 1025px) {
+    html, body {
+        height: 100% !important;
+    }
+}
+
 body {
     background-image: url('/public/images/background.jpg');
     background-size: cover;

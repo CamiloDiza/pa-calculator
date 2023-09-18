@@ -1,7 +1,7 @@
 <x-tab-pane active="false" target="cleanliness">
     <div class="row py-3">
-        <div class="col-6">
-            <div class="row align-items-start">
+        <div class="col-md-6">
+            <div class="row gy-3 align-items-start">
                 <x-card-list title="{{ __('Laundry (Total)') }}">
                     <x-list-item listItem="{{ __('Rooms to build') }}" badge="{{ $laundryRoomsToBuild }}" />
                     <x-list-item listItem="{{ __('Baskets') }}" badge="{{ $baskets }}" />
@@ -18,8 +18,8 @@
                 </x-card-list>
             </div>
         </div>
-        <div class="col-6">
-            <div class="row  align-items-start">
+        <div class="col-md-6 mt-3">
+            <div class="row gy-3 align-items-start">
                 <x-card-list title="{{ __('Cleaning Cupboard (Total)') }}">
                     <x-list-item listItem="{{ __('Rooms to build') }}" badge="{{ $cleaningCupboardRoomsToBuild }}" />
                     <x-list-item listItem="{{ __('Working Prisoners') }}"
@@ -32,5 +32,4 @@
             </div>
         </div>
     </div>
-
 </x-tab-pane>

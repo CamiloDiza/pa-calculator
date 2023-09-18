@@ -1,6 +1,6 @@
 <x-tab-pane active="true" target="feeding">
     <div class="row py-3">
-        <div class="col-4">
+        <div class="col-md-4">
             <div class="mb-3">
                 <p>{{ __('Select the quantity and variety of food to be served:') }}</p>
             </div>
@@ -28,8 +28,9 @@
                 </select>
             </div>
         </div>
-        <div class="col-8">
-            <div class="row container gy-3 align-items-start" style="margin-left: 0%; padding-right: 0%">
+        <div class="col-md-8">
+            <div class="row container gy-3 align-items-start"
+                style="margin-left: 0%; padding-right: 0%; padding-left: 0%">
                 <x-card-list title="{{ __('Kitchen') }}">
                     <x-list-item listItem="{{ __('Cookers') }}" badge="{{ $cookers }}" />
                     <x-list-item listItem="{{ __('Cooks') }}" badge="{{ $cooks }}" />

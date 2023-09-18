@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="h-100" lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-bs-theme="dark">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-bs-theme="dark">
 
 <head>
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
     @livewireStyles
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column">
 
     @include('partials.header')
 
@@ -22,7 +22,7 @@
     </main>
 
     @include('partials.footer')
-    @include('partials.set-lang')
+    {{-- @include('partials.set-lang') --}}
 
     @livewireScripts
 </body>
