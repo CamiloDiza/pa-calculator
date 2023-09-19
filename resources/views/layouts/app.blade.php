@@ -22,7 +22,7 @@
     </main>
 
     @include('partials.footer')
-    {{-- @include('partials.set-lang') --}}
+    @include('partials.set-lang')
 
     @livewireScripts
 </body>
