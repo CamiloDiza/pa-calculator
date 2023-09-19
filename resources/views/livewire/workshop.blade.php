@@ -1,4 +1,4 @@
-<x-tab-pane active="true" target="workshop">
+<x-tab-pane active="false" target="workshop">
     <div class="row py-3">
         <div class="col-md-4">
             <div class="mb-3">
